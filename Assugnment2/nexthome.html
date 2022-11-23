@@ -1,0 +1,34 @@
+<html>
+<body>
+<h1>
+        <font color="#FF2626">G</font>
+        <font color="#252A34">o</font>
+        <font color="#753422">o</font>
+        <font color="#FFD523">g</font>
+        <font color="#71EFA3">l</font>
+        <font color="#0F52BA">e</font>
+		</h1>
+	<h2> Gmail </h2>
+    <form>
+    <font size=5><font color="black"><input type="text" placeholder="Username" name="text1"><br /><br /></font>
+    <font size=5><font color="white"><input type="password" placeholder="Password" name="text2"><br /><br /></font>
+    <font size=5><input type="submit" value="Login"  onclick=javascript.validate(test1.value,test2.value)></font>
+    </form>
+<! javascript>
+<script language="javascript">
+function validate(text1,text2)
+{
+    if(text1==workshop && text2==workshop)
+    load("run.html");
+    else
+    {
+        load("fail.html");
+    }
+}
+function load(url)
+{
+    location href="run.html";
+}
+</script>
+</body>
+</html>
